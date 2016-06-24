@@ -1,0 +1,32 @@
+scp -r ./Desktop/123 lxg151530@dc03.utdallas.edu:/home/013/l/lx/lxg151530
+scp  ./Hello.jar lxg151530@dc03.utdallas.edu:/home/013/l/lx/lxg151530/aos
+
+scp  ./machineNode.jar lxg151530@dc03.utdallas.edu:/home/013/l/lx/lxg151530/aos
+scp  ./config.txt lxg151530@dc03.utdallas.edu:/home/013/l/lx/lxg151530/aos
+
+ssh lxg151530@dc08.utdallas.edu
+
+scp  id_rsa.pub  lxg151530@dc04.utdallas.edu:/home/013/l/lx/lxg151530/.ssh/authorized_keys
+
+foo="Hello"
+foo="$foo World"
+echo $foo
+> Hello World
+
+In general to concatenate two variables you can just write them one after another:
+
+a='hello'
+b='world'
+c=$a$b
+echo $c
+> helloworld
+
+$ sshpass -p 't@uyM59bQ' ssh username@server.example.com
+
+java -jar Hello.jar 1
+
+cat <path/your_file>
+
+less <path/your_file>
+
+lets you scroll and search (/ text to search Enter) in the file; press q to exit.

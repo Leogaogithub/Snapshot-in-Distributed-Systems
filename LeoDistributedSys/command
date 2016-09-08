@@ -1,9 +1,0 @@
-scp -r ./Desktop/123 lxg151530@dc03.utdallas.edu:/home/013/l/lx/lxg151530
-scp  ./Hello.jar lxg151530@dc03.utdallas.edu:/home/013/l/lx/lxg151530/aos
-
-scp  ./machineNode.jar lxg151530@dc03.utdallas.edu:/home/013/l/lx/lxg151530/aos
-scp  ./config.txt lxg151530@dc03.utdallas.edu:/home/013/l/lx/lxg151530/aos
-
-ssh lxg151530@dc08.utdallas.edu
-
-scp  id_rsa.pub  lxg151530@dc04.utdallas.edu:/home/013/l/lx/lxg151530/.ssh/authorized_keys

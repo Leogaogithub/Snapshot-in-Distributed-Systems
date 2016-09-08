@@ -1,6 +1,4 @@
 # LeoDistributeSys
-
-## description
 This is the first academic project of course “Advanced Operating System”. In this project, first Chandy Lamport algorithm was implemented to create a consistent snapshot of the global state of a distributed system. Second, termination detection was implemented to detect if the computation has finished doing all the work. GRASP was the main principle we use to create our main classes. Controller pattern, factory pattern, singleton pattern, state pattern are used in the project.
 
 This project consists of three parts.
